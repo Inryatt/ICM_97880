@@ -1,4 +1,9 @@
 <resources>
-    <string name="app_name">Homework1</string>
+    <string name="app_name">Homework</string>
     <string name="Call_number_tip">Call a number..</string>
+    <string name="label">Label</string>
+    <string name="number">Number</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+
 </resources>
