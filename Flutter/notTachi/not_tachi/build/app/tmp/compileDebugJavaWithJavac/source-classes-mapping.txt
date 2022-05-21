@@ -1,4 +1,0 @@
-io/flutter/plugins/GeneratedPluginRegistrant.java
- io.flutter.plugins.GeneratedPluginRegistrant
-com/example/not_tachi/BuildConfig.java
- com.example.not_tachi.BuildConfig
