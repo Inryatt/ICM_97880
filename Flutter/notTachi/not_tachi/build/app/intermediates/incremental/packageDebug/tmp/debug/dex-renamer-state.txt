@@ -1,0 +1,4 @@
+#Wed Mar 23 13:06:23 WET 2022
+base.0=/home/inryatt/Uni/3ano/ICM/notTachi/not_tachi/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

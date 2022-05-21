@@ -2,6 +2,8 @@ package icm.lab1.homework1
 
 import android.app.Dialog
 import android.content.DialogInterface
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.text.Editable
 import android.util.Log
@@ -157,6 +159,10 @@ class MainActivity : AppCompatActivity() {
             }
             R.id.callBut -> {
                 // do call thing
+                val dialIntent = Intent(Intent.ACTION_DIAL)
+                dialIntent.data = Uri.parse("tel:" + editNum.text)
+                startActivity(dialIntent)
+
             }
             else -> {
                 editNum.text=editNum.text.append("?")
